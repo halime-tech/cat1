@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+body{
+    background-color: rgb(29, 29, 39);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.digital-card{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 500px; 
+    background-color: rgb(20, 20, 25);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.navbar h3{
+    color: rgb(227, 98, 52);
+}
+.navbar p{
+    margin-top: 10px;
+}
+
+.about {
+    text-align: left;
+    padding: 30px 50px 30px 50px;    
+}
+.about .one {
+    padding-bottom: 50px;
+        
+}
+.about h1{
+    margin-bottom: 10px;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.email{
+    padding: 17px 70px 17px 70px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: none;
+
+}
+.linkedin{
+    padding: 17px 56px 17px 56px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    background-color: rgb(45, 166, 185);
+    border: none;
+    color: white;
+}
+
+img{
+    overflow: hidden;
+    width: 500px;
+}
+
+footer{ 
+    background-color: rgb(15, 14, 19);
+    padding: 35px;
+    font-size: 17px;  
+}
